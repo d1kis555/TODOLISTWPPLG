@@ -1,0 +1,25 @@
+{
+  "name": "notion-todo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build",
+    "lint": "eslint assets/src",
+    "format": "prettier --write assets/src",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "qrcode-generator": "^1.5.2",
+    "sortablejs": "^1.15.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@playwright/test": "^1.49.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.0",
+    "vite": "^6.4.6"
+  }
+}
